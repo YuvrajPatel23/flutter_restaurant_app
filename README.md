@@ -1,8 +1,6 @@
 # flutter_restaurant_app
 # Bansi Restaurant - Flutter Menu App
 
-![App Screenshot](assets/images/screenshot.png)
-
 A Flutter application for browsing restaurant menu items, adding them to cart, and placing orders.
 
 ## Features
@@ -26,7 +24,7 @@ A Flutter application for browsing restaurant menu items, adding them to cart, a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bansi-restaurant.git
+git clone https://github.com/YuvrajPatel23/flutter_restaurant_app.git
 cd bansi-restaurant
 ```
 
@@ -68,12 +66,6 @@ flutter:
 
 This app uses only Flutter core packages with no external dependencies.
 
-## Testing
-
-Run tests with:
-```bash
-flutter test
-```
 
 ## License
 
