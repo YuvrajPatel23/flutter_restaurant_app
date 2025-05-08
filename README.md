@@ -63,7 +63,7 @@ flutter:
 
 | Home Screen | Category Filter | Cart Screen |
 |-------------|-----------------|-------------|
-| ![Home](image.png) | ![Filter](![alt text](image-2.png)g) | ![Cart](image-1.png) |
+| ![Home](image.png) | ![Filter](image-3.png) | ![Cart](image-1.png) |
 ## Dependencies
 
 This app uses only Flutter core packages with no external dependencies.
