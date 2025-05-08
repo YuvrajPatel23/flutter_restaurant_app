@@ -1,16 +1,80 @@
 # flutter_restaurant_app
+# Bansi Restaurant - Flutter Menu App
 
-A new Flutter project.
+![App Screenshot](assets/images/screenshot.png)
 
-## Getting Started
+A Flutter application for browsing restaurant menu items, adding them to cart, and placing orders.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Browse menu items by category
+- Add/remove items from cart
+- Order summary with tax calculation
+- Responsive UI for all screen sizes
+- Visual category filtering
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+
+- Flutter SDK (latest stable version)
+- Dart SDK
+- Android Studio/VSCode with Flutter plugin
+- Android/iOS emulator or physical device
+
+### Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/bansi-restaurant.git
+cd bansi-restaurant
+```
+
+2. Install dependencies:
+```bash
+flutter pub get
+```
+
+3. Run the app:
+```bash
+flutter run
+```
+
+## Project Structure
+
+```
+lib/
+├── main.dart                # App entry point
+assets/
+├── images/                  # Menu item images
+```
+
+## Configuration
+
+Add your images to `assets/images/` and update `pubspec.yaml`:
+
+```yaml
+flutter:
+  assets:
+    - assets/images/
+```
+
+## Screenshots
+
+| Home Screen | Category Filter | Cart Screen |
+|-------------|-----------------|-------------|
+| ![Home](image.png) | ![Filter](![alt text](image-2.png)g) | ![Cart](image-1.png) |
+## Dependencies
+
+This app uses only Flutter core packages with no external dependencies.
+
+## Testing
+
+Run tests with:
+```bash
+flutter test
+```
+
+## License
+
+This project is licensed under the MIT License.
